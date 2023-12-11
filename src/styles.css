@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+  }
+
+  body {
+    background-color: rgba(183, 44, 2, 0.521);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    position: relative;
+    overflow-y: auto;
+  }
+
+form {
+    width: 360px;
+    margin: 0 auto;
+    margin-top: 8%;
+    padding: 30px;
+    /* box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1); */
+    border-radius: 10px;
+    background: white;
+  }
+  input {
+    padding: 10px 12px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 1em;
+    width: 100%;
+  }
+  label {
+    display: block;
+    margin: 0 0 10px;
+    font-weight: 500;
+    font: 1.4em sans-serif;
+  }
+  button {
+    margin-top: 15px;
+    border-radius: 30px;
+    background: #fee996;
+    border: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.8em;
+    display: block;
+    padding: 10px 16px;
+    letter-spacing: 2px;
+  }
